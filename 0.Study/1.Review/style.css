@@ -1,0 +1,58 @@
+/* All */
+p, h3 {
+    margin: 0 0 0 0;
+}
+
+.container {
+    width: 800px;
+    height: 200px;
+    border: black solid 1px;
+}
+
+/* main */
+
+.title {
+    width: 70%;
+    height: 20%;
+    float: none;
+}
+
+.title-img {
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    margin: 5px 10px 5px 10px;
+    float: left;
+}
+
+.user-name {
+    padding: 5px;
+    font-size: 7px;
+}
+
+.right-img {
+    width: 30%;
+    height: 100%;
+    background-color: blanchedalmond;
+    float: right;
+}
+
+.sub-title {
+    width: 70%;
+    height: 20%;
+    float: none;
+}
+
+.sub-name {
+    padding: 7px;
+}
+
+.main-content {
+    width: 70%;
+    height: 60%;
+    float: none;
+}
+
+.content-text {
+    padding: 5px 5px 5px 5px;
+}

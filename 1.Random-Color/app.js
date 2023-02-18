@@ -16,10 +16,10 @@ clickNextButton = () => {
     nextBtn.textContent = '다음'
 
     // 돌면서 랜덤값 집어넣음
+    // hexColor = # + hexCodeCalculate여기서 뽑은 인덱스값
     let hexColor = '#'
     for(let i = 0; i < 6; i++) {
         hexColor += hex[hexCodeCalculate()]
-
     }
 
     // 위에 값 텍스트랑 바디태그 백그라운드에 출력
@@ -28,6 +28,8 @@ clickNextButton = () => {
 }
 
 // 헥사코드 계산
+// 랜덤값을 뽑아야하기때문에 Math.random 함수를 이용해서 0 ~ 1사이의 난수를 생성
+// hex(배열)의 인덱스와 랜덤값과 곱하고 Math.floor를 사용해서 소수점 이하 내림
 hexCodeCalculate = () => {
     return Math.floor(Math.random() * hex.length);
 }
