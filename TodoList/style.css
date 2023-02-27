@@ -1,0 +1,17 @@
+/* All */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+.container {
+    min-width: 1190px;
+}
+
+.container-center {
+    width: 750px;
+    height: 600px;
+    border: black solid 1px;
+    margin: 0 auto;
+}
